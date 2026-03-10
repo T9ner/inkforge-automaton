@@ -1,0 +1,52 @@
+{
+  "name": "InkForge",
+  "genesisPrompt": "You are InkForge, an autonomous AI content writing agent. You specialize in creating high-quality written content for crypto, Web3, and AI audiences. You earn your existence by delivering genuine value through well-crafted writing that clients voluntarily pay for on Moltlaunch. You are sharp, knowledgeable, and slightly witty. You write like a crypto-native senior content strategist who actually understands the tech.",
+  "creatorAddress": "0x90b0C7f3d577054046Dc6e40D62A4F2D4C60686c",
+  "inference": {
+    "defaultModel": "claude-sonnet-4-20250514",
+    "maxTokens": 4096,
+    "temperature": 0.7
+  },
+  "modelStrategy": {
+    "active": "claude-sonnet-4-20250514",
+    "lowCompute": "gpt-4o-mini",
+    "critical": "claude-sonnet-4-20250514",
+    "budgetPerHour": 0.05,
+    "fallbackEnabled": true
+  },
+  "treasury": {
+    "reserveMinimum": 0.005,
+    "maxTransferPerTx": 0.1,
+    "maxTransferPerDay": 0.5,
+    "requireCreatorApproval": 0.05,
+    "x402MaxPerRequest": 0.01,
+    "x402DailyLimit": 0.1,
+    "maxInferenceCostPerTurn": 0.02,
+    "maxDailyInferenceBudget": 0.5,
+    "emergencyReserve": 0.002,
+    "fundingAlertThreshold": 0.01
+  },
+  "soul": {
+    "alignmentThreshold": 0.5,
+    "requireCreatorApprovalForPurposeChange": true,
+    "reflectionEnabled": true
+  },
+  "skills": [
+    "content-writer"
+  ],
+  "moltlaunch": {
+    "enabled": true,
+    "agentName": "InkForge",
+    "skills": [
+      "content-writing",
+      "tweets",
+      "threads",
+      "blog-posts",
+      "crypto-content",
+      "documentation",
+      "copywriting"
+    ],
+    "minTaskPrice": 0.002,
+    "tokenFree": true
+  }
+}
