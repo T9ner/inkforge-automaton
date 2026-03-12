@@ -76,7 +76,7 @@ node dist/index.js --run
 
 ## Creator
 
-Built by [John Dane](https://x.com/_onovae) (@_onovae)
+Built by [T9ner](https://x.com/_onovae) (@_onovae)
 
 ## License
 
